@@ -3,10 +3,31 @@
 }
 #menu {
     background-color: darksalmon;
+    float: left;
+    width: 150px;
+    height: 100%;
+    font-size: 20px; 
+
 }
 #content {
     background-color: green;
+    margin-left: 160px;
 }
 #footer {
     background-color: hotpink;
+}
+#menu ui li a:hover {
+    background-color: darkseagreen;
+}
+#menu ui li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
